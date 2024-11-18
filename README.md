@@ -38,7 +38,7 @@ depois entre na pasta: cd YOUTUBE-API
 API_KEY=SUA_CHAVE_AQUI
 
 5. Iniciar o servidor:
-node Server.js
+npm start
 
 Após isso você poder acessar o servidor em http://localhost:3000
 

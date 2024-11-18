@@ -7,16 +7,23 @@ Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de c
 - Ordenar vídeos por diferentes critérios:
   - Mais recentes (`date`)
   - Mais relevantes (`relevance`)
-  - Ordem alfabética pelo título (`title`)
-  - Mais visualizados (`viewCount`)
-- Retornar dados como título, URL do vídeo e data de publicação.
+  - Ordem alfabética pelo título (`title`)                                                                  - Mais visualizados (`viewCount`)
+  - Mais bem avaliados(`rating`)                                                                          - Retornar dados como título, URL do vídeo e data de publicação.
 
 ## Tecnologias Utilizadas
 
 - **Node.js**
 - **Express**
-- **Axios**
-- **YouTube Data API v3**
+- **Axios**                                                                                               - **YouTube Data API v3**
+
+## Endpoints
+| método | endpoint | descrição |
+|--------|----------|-----------|
+| GET | `/videos/nome-do-canal/date` | busca os video mais recentes do canal |
+| GET | `/videos/nome-do-canal/relevance` | busca os video mais relevantes do canal |
+| GET | `/videos/nome-do-canal/title` | ordenar por ordem alfabética |
+| GET | `/videos/nome-do-canal/viewCount` | busca os video mais visualizados do canal |
+| GET | `/videos/nome-do-canal/rating` | busca os video mais bem avaliados |
 
 ## Como Rodar o Projeto
 
@@ -34,3 +41,7 @@ API_KEY=SUA_CHAVE_AQUI
 node Server.js
 
 Após isso você poder acessar o servidor em http://localhost:3000
+
+## Observações
+Este projeto foi desenvolvido com fins educacionais e não aceita contribuições externas.
+Certifique-se de respeitar os limites de uso da YouTube Data API v3 ao rodar o projeto.

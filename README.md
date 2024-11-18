@@ -28,16 +28,16 @@ Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de c
 ## Como Rodar o Projeto
 
 1. Clone este repositório:
-   git clone https://github.com/Emanoellima-dev/YOUTUBE-API.git
-   cd nome-do-repositorio
+   git clone https://github.com/Emanoellima-dev/YOUTUBE-API.git.
+depois entre na pasta: cd YOUTUBE-API
 
-2. Instale as dependencias:
+3. Instale as dependencias:
  npm install
 
-3. Crie um arquivo .env e adicione sua chave da API do YouTube:
+4. Crie um arquivo .env e adicione sua chave da API do YouTube:
 API_KEY=SUA_CHAVE_AQUI
 
-4. Iniciar o servidor:
+5. Iniciar o servidor:
 node Server.js
 
 Após isso você poder acessar o servidor em http://localhost:3000

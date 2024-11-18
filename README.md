@@ -3,7 +3,7 @@ Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de c
 
 ## Funcionalidades
 
-- Buscar vídeos de um canal pelo nome.
+- Buscar 50 vídeos de um canal pelo nome.
 - Ordenar vídeos por diferentes critérios:
   - Mais recentes (`date`)
   - Mais relevantes (`relevance`)
@@ -19,11 +19,11 @@ Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de c
 ## Endpoints
 | método | endpoint | descrição |
 |--------|----------|-----------|
-| GET | `/videos/nome-do-canal/date` | busca os video mais recentes do canal |
-| GET | `/videos/nome-do-canal/relevance` | busca os video mais relevantes do canal |
+| GET | `/videos/nome-do-canal/date` | busca os 50 videos mais recentes do canal |
+| GET | `/videos/nome-do-canal/relevance` | busca os 50 videos mais relevantes do canal |
 | GET | `/videos/nome-do-canal/title` | ordenar por ordem alfabética |
-| GET | `/videos/nome-do-canal/viewCount` | busca os video mais visualizados do canal |
-| GET | `/videos/nome-do-canal/rating` | busca os video mais bem avaliados |
+| GET | `/videos/nome-do-canal/viewCount` | busca os 50 videos mais visualizados do canal |
+| GET | `/videos/nome-do-canal/rating` | busca os 50 videos mais bem avaliados |
 
 ## Como Rodar o Projeto
 

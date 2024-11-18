@@ -52,7 +52,7 @@ export const search = async (req, res) => {
         channelId: channelId,
         part: 'snippet',
         order: order,
-        maxResults: 5,
+        maxResults: 50,
       }
     });
 

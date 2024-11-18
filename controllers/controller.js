@@ -3,6 +3,21 @@ import axios from 'axios';
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 const BASE_URL = 'https://www.googleapis.com/youtube/v3';
 
+export const initialRouter = (req, res) => {
+  res.send(`
+    <html>
+      <head>
+        <meta charset="UTF-8">
+	<meta name="viewport" content= "width=device-width, inicial-scale=1.0">
+        <title>rota inicial da API</title>
+      </head>
+      <body>
+        <h1>Essa é a Rota Inicial da API</h1>
+      </body>
+    </html>
+  `)
+};
+
 export const search = async (req, res) => {
  const { channelName, order } = req.params;
 

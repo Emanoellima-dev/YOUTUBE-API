@@ -3,7 +3,7 @@ Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de c
 
 ## Funcionalidades
 
-- Buscar 50 vídeos de um canal pelo nome.
+- Buscar vídeos de um canal pelo nome.
 - Ordenar vídeos por diferentes critérios:
   - Mais recentes (`date`)
   - Mais relevantes (`relevance`)

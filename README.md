@@ -1,1 +1,36 @@
 # YOUTUBE-API
+Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de canais específicos e ordená-los de diversas formas. É desenvolvido em Node.js com Express.
+
+## Funcionalidades
+
+- Buscar vídeos de um canal pelo nome.
+- Ordenar vídeos por diferentes critérios:
+  - Mais recentes (`date`)
+  - Mais relevantes (`relevance`)
+  - Ordem alfabética pelo título (`title`)
+  - Mais visualizados (`viewCount`)
+- Retornar dados como título, URL do vídeo e data de publicação.
+
+## Tecnologias Utilizadas
+
+- **Node.js**
+- **Express**
+- **Axios**
+- **YouTube Data API v3**
+
+## Como Rodar o Projeto
+
+1. Clone este repositório:
+   git clone https://github.com/Emanoellima-dev/YOUTUBE-API.git
+   cd nome-do-repositorio
+
+2. Instale as dependencias:
+ npm install
+
+3. Crie um arquivo .env e adicione sua chave da API do YouTube:
+API_KEY=SUA_CHAVE_AQUI
+
+4. Iniciar o servidor:
+node Server.js
+
+Após isso você poder acessar o servidor em http://localhost:3000

@@ -1,5 +1,5 @@
 # YOUTUBE-API
-Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de canais específicos e ordená-los de diversas formas. É desenvolvido em Node.js com Express.
+Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de canais específicos e ordená-los de diversas formas. foi desenvolvida utilizando Node.js com Express.
 
 ## Funcionalidades
 

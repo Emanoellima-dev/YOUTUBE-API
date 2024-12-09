@@ -25,7 +25,7 @@ Este é um projeto backend que utiliza a API do YouTube para buscar vídeos de c
 | GET | `/videos/nome-do-canal/viewCount` | busca os 50 videos mais visualizados do canal |
 | GET | `/videos/nome-do-canal/rating` | busca os 50 videos mais bem avaliados |
 
-## Como Rodar o Projeto
+## Como Iniciar o Projeto Localmente
 
 1. Clone este repositório:
    git clone https://github.com/Emanoellima-dev/YOUTUBE-API.git.
